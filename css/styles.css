@@ -1,0 +1,245 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f0f4f8;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+nav .logo a {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+nav .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav .nav-links li a {
+    font-size: 1em;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav .nav-links li a:hover {
+    color: #0066cc;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 150px 20px 100px;
+    margin-top: 60px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.hero-section .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-section .btn:hover {
+    background-color: #004d99;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-category {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skill-category ul li {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+/* Awards Section */
+#awards ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #004d99;
+}
+
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+footer p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Scroll to Top Button */
+#toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: #0066cc;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#toTopBtn:hover {
+    background-color: #004d99;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill-category {
+        width: 80%;
+    }
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #6200ea;
+    color: #fff;
+    /* Add other styling as needed */
+}
+
+.content {
+    padding-top: 60px; /* Adjust based on the height of the top bar */
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.tags, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
