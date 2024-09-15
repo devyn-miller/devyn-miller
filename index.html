@@ -26,86 +26,123 @@
 
     <!-- Hero Section -->
     <header class="hero-section">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Electrical Engineer & Computer Scientist | Behavioral & Computational Economist</p>
-        <a href="about.html" class="btn">Learn More About Me</a>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Electrical Engineer & Computer Scientist | Behavioral & Computational Economist</p>
+            <a href="about.html" class="btn">Learn More About Me</a>
+        </div>
     </header>
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
-        <p>Your bio goes here...</p>
-    </section>
 
     <!-- Skills Section -->
-    <section id="skills">
-        <h2>My Skills</h2>
-        <div class="skills-container">
-            <!-- Programming Languages -->
-            <div class="skill-category">
-                <h3>Programming Languages</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>R</li>
-                    <li>JavaScript</li>
-                    <li>HTML/CSS</li>
-                    <li>Swift</li>
-                </ul>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="tags">
+                <!-- Programming Languages -->
+                <span class="tag" data-filter="Python" style="background-color: #a8d0e6;">Python</span>
+                <span class="tag" data-filter="SQL" style="background-color: #f76c6c;">SQL</span>
+                <span class="tag" data-filter="R" style="background-color: #ffcb69;">R</span>
+                <span class="tag" data-filter="JavaScript" style="background-color: #a0e7e5;">JavaScript</span>
+                <span class="tag" data-filter="HTML/CSS" style="background-color: #b4f8c8;">HTML/CSS</span>
+                <span class="tag" data-filter="Swift" style="background-color: #f3a683;">Swift</span>
+                
+                <!-- Frameworks & Tools -->
+                <span class="tag" data-filter="TensorFlow" style="background-color: #f67280;">TensorFlow</span>
+                <span class="tag" data-filter="Keras" style="background-color: #c06c84;">Keras</span>
+                <span class="tag" data-filter="Scikit-learn" style="background-color: #355c7d;">Scikit-learn</span>
+                <span class="tag" data-filter="Git" style="background-color: #ffb866;">Git</span>
+                <span class="tag" data-filter="Docker" style="background-color: #6c5b7b;">Docker</span>
+                <span class="tag" data-filter="MySQL" style="background-color: #95afc0;">MySQL</span>
+                
+                <!-- Soft Skills -->
+                <span class="tag" data-filter="Data Analysis" style="background-color: #f8c291;">Data Analysis</span>
+                <span class="tag" data-filter="Machine Learning" style="background-color: #6ab04c;">Machine Learning</span>
+                <span class="tag" data-filter="Academic Writing" style="background-color: #2980b9;">Academic Writing</span>
+                <span class="tag" data-filter="Problem-Solving" style="background-color: #e55039;">Problem-Solving</span>
+                <span class="tag" data-filter="Team Collaboration" style="background-color: #303952;">Team Collaboration</span>
             </div>
-            <!-- Frameworks & Tools -->
-            <div class="skill-category">
-                <h3>Frameworks & Tools</h3>
-                <ul>
-                    <li>TensorFlow</li>
-                    <li>Keras</li>
-                    <li>Scikit-learn</li>
-                    <li>Git</li>
-                    <li>Docker</li>
-                    <li>MySQL</li>
-                </ul>
-            </div>
-            <!-- Soft Skills -->
-            <div class="skill-category">
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Data Analysis</li>
-                    <li>Machine Learning</li>
-                    <li>Academic Writing</li>
-                    <li>Problem-Solving</li>
-                    <li>Team Collaboration</li>
-                </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project" data-skills="TensorFlow, Python" data-category="Machine Learning">
+                    <h3>The Final Assignment2</h3>
+                    <p>Preview of @<a href="https://github.com/devyn-miller/the-final-assignment2-cpsc542" target="_blank">GitHub Repo</a></p>
+                    <a href="https://yourprojectsite.com" target="_blank">Visit Site</a>
+                </div>
+                <!-- Add more projects with appropriate data attributes -->
             </div>
         </div>
     </section>
 
     <!-- Awards & Achievements -->
-    <section id="awards">
-        <h2>Awards & Achievements</h2>
-        <ul>
-            <li>Best Analysis at SoCal R Hackathon</li>
-            <li>Beta Gamma Sigma Academic Honor Award</li>
-            <li>Full Academic Scholarship at Chapman University</li>
-        </ul>
+    <section id="awards" class="section">
+        <div class="container">
+            <h2>Awards & Achievements</h2>
+            <ul>
+                <li>Best Analysis at SoCal R Hackathon</li>
+                <li>Beta Gamma Sigma Academic Honor Award</li>
+                <li>Full Academic Scholarship at Chapman University</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-container">
+                <!-- Example Experience -->
+                <div class="experience" data-category="Backend Development">
+                    <h3>Backend Developer at XYZ Company</h3>
+                    <p>Developed scalable backend services using Python and Docker.</p>
+                </div>
+                <!-- Add more experiences with appropriate data attributes -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-container">
+                <!-- Example Education -->
+                <div class="education" data-category="Electrical Engineering">
+                    <h3>Chapman University</h3>
+                    <p>Bachelor of Science in Electrical Engineering</p>
+                </div>
+                <!-- Add more education entries with appropriate data attributes -->
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="mailto:devmiller@chapman.edu" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Your Email">
-            <textarea name="message" placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="mailto:devmiller@chapman.edu" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="social-media">
-            <a href="https://linkedin.com/in/devyn-c-miller/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/your-github-username" target="_blank">GitHub</a>
+        <div class="container">
+            <div class="social-media">
+                <a href="https://linkedin.com/in/devyn-c-miller/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/your-github-username" target="_blank">GitHub</a>
+            </div>
+            <p>&copy; 2024 Devyn Miller</p>
         </div>
-        <p>&copy; 2024 Devyn Miller</p>
     </footer>
 
     <!-- JavaScript -->
