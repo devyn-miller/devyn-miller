@@ -43,8 +43,8 @@ I focus on delivering solutions that are **deployed**, **efficient**, and **impa
 
 ## 📈 GitHub Stats
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=devynmiller&show_icons=true&theme=default" alt="Devyn's GitHub Stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devynmiller&layout=compact&theme=default" alt="Top Languages" height="160">
+  <img src="https://github-readme-stats.vercel.app/api?username=devyn-miller&show_icons=true&theme=default&hide_rank=true" alt="Devyn's GitHub Stats" height="160">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devyn-miller&layout=compact&theme=default" alt="Top Languages" height="160">
 </p>
 
 ---
