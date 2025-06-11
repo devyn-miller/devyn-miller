@@ -31,12 +31,24 @@ I focus on delivering solutions that are **deployed**, **efficient**, and **impa
 
 ---
 
-## 🛠️ Featured Technical Skills
+## 🛠️ Main Tech Stack
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL">
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+
+  <!-- ML/DS Frameworks -->
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
+
+  <!-- Tools -->
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" alt="Apache Airflow">
+  <img src="https://img.shields.io/badge/Hadoop-FFCA28?style=for-the-badge&logo=apache-hadoop&logoColor=black" alt="Hadoop">
+
+  <!-- Cloud -->
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
 </p>
 
 ---
@@ -45,6 +57,7 @@ I focus on delivering solutions that are **deployed**, **efficient**, and **impa
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=devyn-miller&show_icons=true&theme=default&hide_rank=true" alt="Devyn's GitHub Stats" height="160">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devyn-miller&layout=compact&theme=default" alt="Top Languages" height="160">
+  <img src="https://github-contributor-stats.vercel.app/api?username=devyn-miller&limit=5&theme=default&combine_all_yearly_contributions=true" alt="Top Public Contributions" height="160">
 </p>
 
 ---
