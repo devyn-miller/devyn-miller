@@ -3,7 +3,7 @@
 > *Engineering intelligent systems that integrate machine learning, optimization, and behavioral modeling.*
 
 ### About Me
-I'm a dual M.S. student in **Electrical Engineering & Computer Science** and **Behavioral & Computational Economics** at Chapman University.  
+I'm an M.S. student in **Electrical Engineering & Computer Science** and recently completed my M.S. in **Behavioral & Computational Economics** at Chapman University.  
 
 I build **scalable machine learning systems**, applying **deep learning**, **reinforcement learning**, and **behavioral modeling** to real-world challenges across healthcare, finance, and user behavior.
 
