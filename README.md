@@ -1,85 +1,122 @@
-# 👋 Hi, I'm Devyn Miller
+# 👋 Hi, I'm Devyn!
 
-> *Engineering intelligent systems that integrate machine learning, optimization, and behavioral modeling.*
+> *Building production ML systems across computer vision, generative AI, and embedded deployment.*
 
 ### About Me
-I'm an M.S. student in **Electrical Engineering & Computer Science** and recently completed my M.S. in **Behavioral & Computational Economics** at Chapman University.  
+I hold M.S. degrees in **Electrical Engineering & Computer Science** and **Behavioral & Computational Economics** from Chapman University, and a B.S. in Business Economics from UC San Diego. My research and development interests include deep learning for image and video understanding, generative modeling, and Bayesian inference, with an emphasis on deployable solutions. I also instruct courses in Machine Learning and Unix/Linux Systems at the graduate and undergraduate levels.
+<p align="center">
+  <a href="https://devynmiller.com">
+    <img src="./portfolio-button.svg" alt="Explore My Portfolio" />
+  </a>
+</p>
 
-I build **scalable machine learning systems**, applying **deep learning**, **reinforcement learning**, and **behavioral modeling** to real-world challenges across healthcare, finance, and user behavior.
 
-My work spans from engineering **end-to-end deep learning pipelines** to developing **data-driven decision models** that connect AI with human-centered systems.
 
-I focus on delivering solutions that are **deployed**, **efficient**, and **impact-driven**.
+## 🔬 What I Build
+- **Generative models** — GAN architectures with spectral normalization, attention mechanisms, and progressive training strategies
+- **Computer vision pipelines** — U-Net segmentation, transfer learning (MobileNetV2, VGG16, ResNet), and video frame processing with temporal consistency
+- **LLM tooling** — Prompt engineering, completion benchmarking, and AWS-based inference infrastructure
+- **Embedded ML** — Low-latency systems on microcontrollers (nRF5340, ESP32) with real-time signal processing
+- **Statistical modeling** — Bayesian GLMs in Stan/brms with posterior diagnostics, causal inference, and time series forecasting
 
----
-
-## 🔬 Key Work
-- **Built deep learning pipelines** for video colorization and image segmentation using TensorFlow, Keras, and OpenCV, ensuring semantic consistency and high model performance.
-- **Engineered scalable data workflows** for real-time processing and behavioral analytics across diverse structured and unstructured datasets.
-- **Developed statistical models** including Bayesian GLMs, PCA, and clustering methods to enhance predictive analytics and decision support.
-- **Optimized computational workflows** through parallelized simulations and efficient training strategies, improving system performance and scalability.
-- **Synthesized technical results** into stakeholder-ready visualizations and dashboards, translating complex AI and statistical outputs into actionable insights.
 ---
 
 ## ⚙️ Selected Projects
 | Project | Description |
 |:---|:---|
-| [🎥 Deep Learning Video Colorization]([https://github.com/devynmiller/deep-colorization](https://devynmiller.com/?project=video-colorization-keras-tuner)) | VGG16-based autoencoder for restoring grayscale video frames with 95% temporal consistency, leveraging Keras Tuner and OpenCV. |
-| [🖼️ UNet Image Segmentation]([https://github.com/devynmiller/unet-segmentation](https://devynmiller.com/?project=image-segmentation-unet)) | Built a high-accuracy UNet model with gradient checkpointing for efficient memory usage on large datasets. |
-| [📊 Bayesian vs Frequentist Analysis]([https://github.com/devynmiller/bayes-vs-frequentist](https://devynmiller.com/?project=bayesian-vs-frequentist)) | Compared Bayesian GLMs and classical regressions on mental health outcomes across 500 participants using brms, rstanarm, and Stan. |
-
+| [🎨 GAN Image Colorization](https://devynmiller.com/?project=gan-project) | ResNet U-Net generator + PatchGAN discriminator with spectral normalization and attention-augmented skip connections. 20% PSNR improvement over baseline. |
+| [🖼️ U-Net Segmentation](https://devynmiller.com/?project=image-segmentation-unet) | MobileNetV2 encoder with 5-layer feature extraction and transposed convolutions. 87%+ validation accuracy on 7,400 images, optimized for edge deployment. |
+| [🎥 Video Colorization](https://devynmiller.com/?project=video-colorization-keras-tuner) | VGG16 autoencoder trained on 30K+ frames with Keras Tuner hyperparameter optimization. 95% temporal consistency. |
+| [📡 BLE Audio System](https://devynmiller.com/?project=iot-ble-audio-streaming) | nRF5340 + ESP32 broadcast system with isochronous channels, I2S routing, <150ms latency at 71ft range. |
+| [📊 Bayesian Modeling](https://devynmiller.com/?project=bayesian-vs-frequentist) | Stan/brms GLMs with weakly informative priors, posterior predictive checks, and 43% forecasting improvement. |
 
 ---
 
-## 🛠️ Main Tech Stack
-<p align="left">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R">
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+## 🛠️ Tech Stack
 
-  <!-- ML/DS Frameworks -->
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
+### Languages
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 
-  <!-- Tools -->
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" alt="Apache Airflow">
-  <img src="https://img.shields.io/badge/Hadoop-FFCA28?style=for-the-badge&logo=apache-hadoop&logoColor=black" alt="Hadoop">
+### ML & Deep Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green)
+![OpenGL](https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl)
 
-  <!-- Cloud -->
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS">
-</p>
+### Data & Visualization
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 
+### Big Data & Streaming
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)
+![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka)
+![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=Apache%20Flink&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/elasticsearch-%230377CC.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+### Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Rancher](https://img.shields.io/badge/rancher-%230075A8.svg?style=for-the-badge&logo=rancher&logoColor=white)
+
+### MLOps & CI/CD
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
+![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
+
+---
+
+**Architectures:** GANs · U-Net · ResNet · VGG16 · MobileNetV2 · Transformers/ViTs  
+**Techniques:** Transfer Learning · Semantic Segmentation · Spectral Normalization · Attention Mechanisms · Bayesian Inference
+
+---
+
+## 📜 Certifications
+- [Google Advanced Data Analytics](https://www.coursera.org/account/accomplishments/professional-cert/certificate/V190OMNVIUZU)
+- [Google Cloud Fundamentals](https://www.coursera.org/account/accomplishments/verify/T5SACE3FGJD9)
+- [Microsoft C++ Programming](https://www.coursera.org/account/accomplishments/professional-cert/certificate/EESJOJINPOQR)
+- [AWS Certified Cloud Practitioner](https://www.credly.com/badges/b8c419b8-ffc9-4003-9f1e-0089c05e47ed/linked_in_profile)
 ---
 
 ## 📈 GitHub Stats
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=devyn-miller&show_icons=true&theme=default&hide_rank=true" alt="Devyn's GitHub Stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devyn-miller&layout=compact&theme=default" alt="Top Languages" height="160">
-  <img src="https://github-contributor-stats.vercel.app/api?username=devyn-miller&limit=5&theme=default&combine_all_yearly_contributions=true" alt="Top Public Contributions" height="160">
+
+<a href="https://github.com/devyn-miller">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=devyn-miller&show_icons=true&theme=default&hide_rank=true&count_private=true" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/devyn-miller">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devyn-miller&layout=compact&theme=default&langs_count=8" alt="Top Languages" />
+</a>
+
+---
+
+## 🌐 Connect with Me!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devyn-c-miller)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@devyncmiller)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devyncmiller@gmail.com)
+
+---
+
+<p align="center">
+  <i>Thanks for visiting! Always curious, always building.</i> 👩🏻‍💻
 </p>
-
----
-
-## 🧠 Roles I Operate In
-| Role | Description |
-|:---|:---|
-| **Machine Learning Engineer** | I design, optimize, and deploy deep learning and statistical models for production environments. |
-| **Full-Stack and Data Systems Developer** | I build scalable backend systems, APIs, and real-time data pipelines. |
-| **Applied Data & Behavioral Scientist** | I model decision-making, market behavior, and user systems using statistical learning and economic frameworks. |
-| **Business Intelligence Architect** | I transform large, complex datasets into actionable insights, dynamic dashboards, and strategic recommendations. |
-
----
-
-# 🌐 Find Me Online
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/devyn-c-miller)
-[![Website](https://img.shields.io/badge/-Website-000000?logo=github&logoColor=white&style=flat-square)](https://devynmiller.com/)
-[![Medium](https://img.shields.io/badge/-Medium-12100E?logo=medium&logoColor=white&style=flat-square)](https://medium.com/@devyncmiller)
-
----
-
-# Thanks for visiting! 👩🏻‍💻
-
----
