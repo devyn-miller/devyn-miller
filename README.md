@@ -100,13 +100,11 @@ I hold M.S. degrees in **Electrical Engineering & Computer Science** and **Behav
 
 ## 📈 GitHub Stats
 
-<a href="https://github.com/devyn-miller">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=devyn-miller&show_icons=true&theme=default&hide_rank=true&count_private=true" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/devyn-miller">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devyn-miller&layout=compact&theme=default&langs_count=8" alt="Top Languages" />
-</a>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devyn-miller/devyn-miller/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devyn-miller/devyn-miller/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/devyn-miller/devyn-miller/output/pacman-contribution-graph.svg">
+</picture>
 ---
 
 ## 🌐 Connect with Me!
