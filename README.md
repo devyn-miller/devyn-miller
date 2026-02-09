@@ -105,7 +105,6 @@ I hold M.S. degrees in **Electrical Engineering & Computer Science** and **Behav
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devyn-miller/devyn-miller/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/devyn-miller/devyn-miller/output/pacman-contribution-graph.svg">
 </picture>
----
 
 ## 🌐 Connect with Me!
 
