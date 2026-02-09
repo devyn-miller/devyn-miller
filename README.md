@@ -100,6 +100,7 @@ I hold M.S. degrees in **Electrical Engineering & Computer Science** and **Behav
 
 ## 📈 GitHub Stats
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=devyn-miller&theme=dracula" alt="GitHub Streak" />
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devyn-miller/devyn-miller/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devyn-miller/devyn-miller/output/pacman-contribution-graph.svg">
